@@ -1,0 +1,27 @@
+<div class="row">
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Dealer Number</th>
+            <th scope="col">Customer Name</th>
+            <th scope="col">Dealership</th>
+            <th scope="col">Vehicle</th>
+            <th scope="col">Price</th>
+            <th scope="col">Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of importResults; index as i">
+            <td>{{ i + 1 }}</td>
+            <td>{{item.deal.dealNumber}}</td>
+            <td>{{item.deal.customerName}}</td>
+            <td>{{item.deal.dealershipName}}</td>
+            <td>{{item.deal.vehicle}}</td>
+            <td>{{item.deal.price | currency:'CAD$'}}</td>
+            <td class="no-warp">{{item.deal.date | date}}</td>           
+          </tr>
+       
+        </tbody>
+      </table>
+</div>

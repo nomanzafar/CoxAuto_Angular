@@ -1,0 +1,196 @@
+{
+    "importErrors": [],
+    "importResults": [
+        {
+            "rowNo": 1,
+            "performedAction": "Import",
+            "message": "Deal Added",
+            "deal": {
+                "dealNumber": 5469,
+                "customerName": "Milli Fulton",
+                "dealershipName": "Sun of Saskatoon",
+                "vehicle": "2017 Ferrari 488 Spider",
+                "price": 429987,
+                "date": "2018-06-19T00:00:00"
+            }
+        },
+        {
+            "rowNo": 2,
+            "performedAction": "Import",
+            "message": "Deal Added",
+            "deal": {
+                "dealNumber": 5132,
+                "customerName": "Rahima Skinner",
+                "dealershipName": "Seven Star Dealership",
+                "vehicle": "2009 Lamborghini Gallardo Carbon Fiber LP-560",
+                "price": 169900,
+                "date": "2018-01-14T00:00:00"
+            }
+        },
+        {
+            "rowNo": 3,
+            "performedAction": "Import",
+            "message": "Deal Added",
+            "deal": {
+                "dealNumber": 5795,
+                "customerName": "Aroush Knapp",
+                "dealershipName": "Maxwell & Junior",
+                "vehicle": "2016 Porsche 911 2dr Cpe GT3 RS",
+                "price": 289900,
+                "date": "2018-06-07T00:00:00"
+            }
+        },
+        {
+            "rowNo": 4,
+            "performedAction": "Import",
+            "message": "Deal Added",
+            "deal": {
+                "dealNumber": 5212,
+                "customerName": "Richard Spencer",
+                "dealershipName": "Milton Jeep Limited",
+                "vehicle": "2018 Jeep Grand Cherokee Trackhawk",
+                "price": 134599,
+                "date": "2018-07-13T00:00:00"
+            }
+        },
+        {
+            "rowNo": 5,
+            "performedAction": "Import",
+            "message": "Deal Added",
+            "deal": {
+                "dealNumber": 5268,
+                "customerName": "Naseem Snow",
+                "dealershipName": "Scott Toronto Dealership, Inc",
+                "vehicle": "2018 BMW M760Li Xdrive Sedan",
+                "price": 177608,
+                "date": "2018-01-21T00:00:00"
+            }
+        },
+        {
+            "rowNo": 6,
+            "performedAction": "Import",
+            "message": "Deal Added",
+            "deal": {
+                "dealNumber": 5765,
+                "customerName": "Storm William",
+                "dealershipName": "Mythicgarcia Dealership LTDA",
+                "vehicle": "2018 Mercedes-Benz S-Class Cabriolet",
+                "price": 189693,
+                "date": "2018-03-22T00:00:00"
+            }
+        },
+        {
+            "rowNo": 7,
+            "performedAction": "Import",
+            "message": "Deal Added",
+            "deal": {
+                "dealNumber": 5465,
+                "customerName": "Ségolène Lémery",
+                "dealershipName": "Richaremus Jafur Dealer",
+                "vehicle": "2017 Chevrolet Corvette Z06",
+                "price": 132925,
+                "date": "2018-03-04T00:00:00"
+            }
+        },
+        {
+            "rowNo": 8,
+            "performedAction": "Import",
+            "message": "Deal Added",
+            "deal": {
+                "dealNumber": 5545,
+                "customerName": "Élie Boutroux",
+                "dealershipName": "Horseallen Cars",
+                "vehicle": "2018 Lexus LS 500h",
+                "price": 164810,
+                "date": "2018-02-05T00:00:00"
+            }
+        },
+        {
+            "rowNo": 9,
+            "performedAction": "Import",
+            "message": "Deal Added",
+            "deal": {
+                "dealNumber": 5890,
+                "customerName": "Ronnie Griffiths",
+                "dealershipName": "Cheruharrison Auto",
+                "vehicle": "2018 Nissan GT-R Premium",
+                "price": 147018,
+                "date": "2018-04-08T00:00:00"
+            }
+        },
+        {
+            "rowNo": 10,
+            "performedAction": "Import",
+            "message": "Deal Added",
+            "deal": {
+                "dealNumber": 5812,
+                "customerName": "Anwar Hoffman",
+                "dealershipName": "Legowart Kingorty, Ltd.",
+                "vehicle": "2018 Jeep Grand Cherokee Trackhawk",
+                "price": 130936,
+                "date": "2018-05-11T00:00:00"
+            }
+        },
+        {
+            "rowNo": 11,
+            "performedAction": "Import",
+            "message": "Deal Added",
+            "deal": {
+                "dealNumber": 5298,
+                "customerName": "Jakob Osborn",
+                "dealershipName": "Coreen Dealership",
+                "vehicle": "2017 Dodge Viper New Car ACR",
+                "price": 229998,
+                "date": "2018-06-11T00:00:00"
+            }
+        },
+        {
+            "rowNo": 12,
+            "performedAction": "Import",
+            "message": "Deal Added",
+            "deal": {
+                "dealNumber": 5359,
+                "customerName": "Maxine Daniels",
+                "dealershipName": "Saskatoon Ferrari",
+                "vehicle": "2017 Ferrari 488 Spider",
+                "price": 419955,
+                "date": "2018-07-15T00:00:00"
+            }
+        },
+        {
+            "rowNo": 13,
+            "performedAction": "Import",
+            "message": "Deal Added",
+            "deal": {
+                "dealNumber": 5712,
+                "customerName": "Donald Waters",
+                "dealershipName": "Milton Jeep Limited",
+                "vehicle": "2018 Jeep Grand Cherokee Trackhawk",
+                "price": 135500,
+                "date": "2018-06-21T00:00:00"
+            }
+        }
+    ],
+    "summary": [
+        {
+            "itemName": "TopVehicle",
+            "itemDescription": "2018 Jeep Grand Cherokee Trackhawk",
+            "itemValue": "3"
+        },
+        {
+            "itemName": "TopDealer",
+            "itemDescription": "Milton Jeep Limited",
+            "itemValue": "2"
+        },
+        {
+            "itemName": "TotalSales",
+            "itemDescription": "Total Sales",
+            "itemValue": "2752829"
+        },
+        {
+            "itemName": "NoOfDeals",
+            "itemDescription": "Number Of Deals",
+            "itemValue": "13"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="alert alert-info text-center btn-block">
+        <h4> Please use below file bar to Upload Vehicle Deals.</h4>
+            <p>Please note that only CSV files are allowed</p>       
+    </div>
+</div>
+<div class="row" *ngIf="isDataDisplayed">
+    <div class="col-4"></div>
+    <div class="col-4 col-center">
+        <button (click)="allowUpload()" class="btn btn-outline-success btn-block mb-2">
+            Upload another CSV file
+        </button>
+    </div>
+    <div class="col-4"></div>
+</div>
+<div class="row" *ngIf="!isDataDisplayed">
+    <input type="file" (change)="uploadFile($event)" placeholder="Upload file" accept=".csv" class="mb-2">
+</div>
+
+
+<app-card *ngIf="result && result.summary" [summary]="result.summary"></app-card>
+
+
+<app-data-table  *ngIf="result && result.importResults" [importResults]="result.importResults"></app-data-table>
+
+
+<div class="row" *ngIf="result && result.importErrors.length > 0" >
+    <div class="alert alert-danger text-center btn-block">
+        <h4>Errors!</h4>
+        Upload was not successfull!
+        <br> Below errors occured. 
+    </div>
+    <div *ngFor="let item of result.importErrors">
+    <p>
+        {{item.rowNo}} | 
+        {{item.message}}
+    </p>
+    </div>
+</div>
+
