@@ -16,6 +16,3 @@
 
 *To test the file with errors
 1- Try Dealertrack-CSV-Example_errors.csv (present in the folder)
-
-
-npm install --save classlist.js
